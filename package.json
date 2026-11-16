@@ -1,0 +1,12 @@
+{
+  "name": "buche.sh",
+  "private": true,
+  "description": "The buche.sh website, built with quaint.",
+  "scripts": {
+    "build": "quaint",
+    "serve": "quaint --serve 8080"
+  },
+  "devDependencies": {
+    "quaint": "^0.1.7"
+  }
+}

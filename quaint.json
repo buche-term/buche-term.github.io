@@ -1,0 +1,29 @@
+{
+  "sources": ["**/*.q"],
+  "dataFiles": [],
+  "data": {},
+  "plugins": {},
+  "inject": [],
+  "contentRoot": "content",
+  "output": "output",
+  "format": "html",
+  "templates": {
+    "default": "default",
+    "root": "templates"
+  },
+  "resources": {
+    "root": "resources",
+    "inline": false,
+    "url": "resources",
+    "files": {}
+  },
+  "files": ["assets", "buche.sh"],
+  "watch": false,
+  "hostname": "https://buche.sh",
+  "siteRoot": "",
+  "server": {
+    "enable": false,
+    "port": 8080
+  },
+  "verbose": false
+}
