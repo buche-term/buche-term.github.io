@@ -1,9 +1,10 @@
 meta ::
-  title = buche — a terminal where panes show more than text
+  title = The buche terminal
 
 .hero %
   h1 %
-    buche
+    ;; buche
+    b[.insert % [img % [src = /assets/buche.svg] [alt = u]]]che
 
 .install-box %
   code %
@@ -29,9 +30,12 @@ This is __[span.reddish % VERY BETA].
 To make a program using the Buche protocol, you can install these skills for your
 agent:
 
-&
+bash &
   # Raw Buche protocol
   npx skills add buche-term/buche
 
   # To develop Buche apps in Python
   npx skills add buche-term/buchelib.py
+
+There will be human docs later, in the meantime your agent can explain the protocol
+and buchelib to you. That's the world we live in.

@@ -63,6 +63,8 @@ a:hover { text-decoration: underline; }
 }
 .brand:hover { text-decoration: none; }
 .logo { width: 26px; height: 26px; }
+.insert { width: 80px; display: inline-block; margin-right: 20px; vertical-align: text-top; }
+.insert img { width: 100%; height: 100%; object-fit: fill; }
 
 .top nav { display: flex; gap: 20px; }
 
@@ -83,6 +85,7 @@ main {
   margin: 0.2em 0 0.1em;
   letter-spacing: +0.3em;
   color: var(--mauve);
+  -webkit-text-stroke: 2px currentColor;
 }
 .hero .tagline {
   color: var(--dim);
