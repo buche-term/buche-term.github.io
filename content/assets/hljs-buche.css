@@ -1,0 +1,59 @@
+/* highlight.js theme tuned for buche.sh (token colors reuse the site palette). */
+
+.hljs {
+  color: var(--ink);
+  background: transparent;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #6d6152;
+  font-style: italic;
+}
+
+/* keywords, curl flags */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-tag .hljs-tag {
+  color: var(--accent);
+}
+
+/* strings */
+.hljs-string,
+.hljs-addition,
+.hljs-regexp,
+.hljs-template-variable {
+  color: #a8c98c;
+}
+
+/* commands, names, headings */
+.hljs-name,
+.hljs-section,
+.hljs-title,
+.hljs-type,
+.hljs-class .hljs-title {
+  color: var(--mauve);
+}
+
+/* literals, numbers, options */
+.hljs-literal,
+.hljs-number,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #e07a5f;
+}
+
+/* variables, attributes, built-ins */
+.hljs-variable,
+.hljs-template-tag,
+.hljs-attr,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-meta {
+  color: #7fb4c9;
+}
+
+.hljs-emphasis { font-style: italic; }
+.hljs-strong { font-weight: 700; }

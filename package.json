@@ -7,6 +7,7 @@
     "serve": "quaint --serve 8080"
   },
   "devDependencies": {
-    "quaint": "^0.1.7"
+    "quaint": "^0.1.7",
+    "quaint-highlight": "^0.1.1"
   }
 }

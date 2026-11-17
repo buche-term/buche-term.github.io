@@ -2,7 +2,14 @@
   "sources": ["**/*.q"],
   "dataFiles": [],
   "data": {},
-  "plugins": {},
+  "plugins": {
+    "highlight": {
+      "theme": "assets/hljs-buche.css",
+      "defaultBlock": "bash",
+      "operatorBlock": "&",
+      "operatorInline": "`"
+    }
+  },
   "inject": [],
   "contentRoot": "content",
   "output": "output",

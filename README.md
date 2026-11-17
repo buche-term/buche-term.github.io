@@ -23,5 +23,12 @@ Layout:
 - `templates/default.q` — the HTML boilerplate every page gets
 - `quaint.json` — quaint configuration (`content/` → `output/`)
 
+Code blocks use the [quaint-highlight](https://github.com/breuleux/quaint-highlight)
+plugin (`&` operator, default language: bash), themed by
+`content/assets/hljs-buche.css` — the build copies it to
+`resources/style/highlight/` and links it in the page head automatically.
+Note: it bundles highlight.js 8, so the language vocabulary is from 2017
+(`curl` gets no tokens, `echo` does).
+
 To add a page, drop a `.q` file in `content/`; it compiles to the matching
 `.html` with the same template.
