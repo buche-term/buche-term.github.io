@@ -15,6 +15,7 @@ meta ::
 
 
 [// \x] => [span.mauve % {x}]
+[//+ \x] => [span.turquoise % {x}]
 
 = What
 
@@ -36,6 +37,8 @@ bash &
 
   # To develop Buche apps in Python
   npx skills add buche-term/buchelib.py
+
+Then say something like //+["claudie boy here's the keys to my investment accounts make me a buche app that plots my stonks"] et voilà.
 
 There will be human docs later, in the meantime your agent can explain the protocol
 and buchelib to you. That's the world we live in.
