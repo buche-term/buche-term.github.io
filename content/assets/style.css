@@ -21,7 +21,7 @@ body {
   background: var(--bg);
   color: var(--ink);
   /*font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;*/
-  font: 20px monospace;
+  font: 18px monospace;
   display: flex;
   flex-direction: column;
   min-height: 100dvh;

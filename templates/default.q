@@ -32,7 +32,7 @@ html %
           buche
       nav %
         a %
-          href = https://github.com/buche-term
+          href = https://github.com/buche-term/buche
           GitHub
     main %
       {body}
